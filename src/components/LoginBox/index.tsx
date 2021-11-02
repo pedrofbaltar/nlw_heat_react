@@ -5,9 +5,7 @@ import { VscGithubInverted } from "react-icons/vsc";
 import styles from "./styles.module.scss";
 
 export function LoginBox() {
-  const { signInUrl, user } = useContext(AuthCotext);
-
-  console.log(user);
+  const { signInUrl } = useContext(AuthCotext);
 
   return (
     <div className={styles.loginBoxWrapper}>
