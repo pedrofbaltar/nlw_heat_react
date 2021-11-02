@@ -1,3 +1,5 @@
+import { api } from "../../services/api";
+import { useEffect } from "react";
 import { VscGithubInverted } from "react-icons/vsc";
 
 import styles from "./styles.module.scss";
